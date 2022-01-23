@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "MathematicsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MathematicsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MathematicsLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MathematicsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MathematicsLibrary/MathematicsLibrary.csproj",
+      "msbuildProject": "../MathematicsLibrary/MathematicsLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "MathematicsLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\saime\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\saime\\Desktop\\Advanced Net Code\\Week_2\\MathematicsConsole\\MathematicsConsole.csproj",
+      "projectName": "MathematicsConsole",
+      "projectPath": "C:\\Users\\saime\\Desktop\\Advanced Net Code\\Week_2\\MathematicsConsole\\MathematicsConsole.csproj",
+      "packagesPath": "C:\\Users\\saime\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\saime\\Desktop\\Advanced Net Code\\Week_2\\MathematicsConsole\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\saime\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\saime\\Desktop\\Advanced Net Code\\Week_2\\MathematicsLibrary\\MathematicsLibrary.csproj": {
+              "projectPath": "C:\\Users\\saime\\Desktop\\Advanced Net Code\\Week_2\\MathematicsLibrary\\MathematicsLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+Visual Studio 2019 Testing Code:
+
+
+Errors Out as invalid Operation:
+
+addsasd 
+
+asdasd 5
+
+afsada 5 5 5
+
+
+
+Errors out as improper paramaters
+
+add 1
+sub 1
+mul 1
+div 1
+squarenumber 
+trianglearea 1
+rectanglearea 1
+trianglecside 1
+circlearea
+listaverage
+
+PowerShell Command
+
+ Start-Process "MathematicsConsole.exe" -ArgumentList "add 1"
+ Start-Process "MathematicsConsole.exe" -ArgumentList "sub 1"
+ Start-Process "MathematicsConsole.exe" -ArgumentList "mul 1"
+ Start-Process "MathematicsConsole.exe" -ArgumentList "div 1"
+ Start-Process "MathematicsConsole.exe" -ArgumentList "squarenumber"
+ Start-Process "MathematicsConsole.exe" -ArgumentList "trianglearea 1"
+ Start-Process "MathematicsConsole.exe" -ArgumentList "rectanglearea 1"
+ Start-Process "MathematicsConsole.exe" -ArgumentList "trianglecside 1"
+ Start-Process "MathematicsConsole.exe" -ArgumentList "circlearea"
+ Start-Process "MathematicsConsole.exe" -ArgumentList "listaverage"
+
+
+
+
+
+
+Unable to Parse
+
+
+add 5 j
+sub 5 b
+mul 3 x
+div 12 c
+squarenumber d
+trianglearea 3 s
+rectanglearea 3 q
+trianglecside 3 w
+circlearea e
+listAverage 0 r 3.5 10
+
+
+
+
+Working Successfully
+
+
+add 5 5
+sub 5 4
+mul 3 4
+div 12 3
+squarenumber 5
+trianglearea 3 4
+rectanglearea 3 4
+trianglecside 3 4
+circlearea 5
+listAverage 0 1 2 3.5 10
+
